@@ -18,6 +18,29 @@
     </head>
 <body>
     <header>
+        <div class="mobilemenu">
+            <div class="mobile-menu-icon-container">
+                <i onclick="openMenu()" id="mobile-menu-icon" class="fa-solid fa-bars" style="color: white;"></i>
+                <ul id="mobile-navigation">
+                    <li>
+                        <a class="mobile-link" href="./faq.html">FAQ</a>
+                    </li>
+                    <li>
+                        <a class="mobile-link" href="./estimate.html">Estimate</a>
+                    </li>
+                    <li>
+                        
+                        <a class="mobile-link" href="./colours.html">Colours</a>
+                    </li>
+                    <li>
+                        <a class="mobile-link"  href="./find-us.html">Find us</a>
+                    </li>
+                    <li>
+                        <a class="mobile-link"  href="./contact.html">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>  
         <!-- Social Media -->
         <div id="social-top">
             <a class="icon" href="https://www.instagram.com/ultimatefinishalnwick" target="_blank">
@@ -29,22 +52,29 @@
         <!-- Desktop navigation -->
         <nav>
             <ul id="desktop-menu">
-                <li class="desktop-menu-item"><div class="desktop-orange"></div><a href="./faq.html">FAQ</a></li>
-                <li class="desktop-menu-item"><div class="desktop-orange"></div><a href="./estimate.html"a>Estimate</a></li>
-                <li class="desktop-menu-item"><div class="desktop-orange"></div><a href="./colours.html">Colours</a></li>
-                <li class="desktop-menu-item"><div class="desktop-orange"></div><a target="_blank">Find Us</a></li>
-                <li class="desktop-menu-item"><div class="desktop-orange"></div><a href="./contact.html">Contact us</a></li>
+                <li><a class="desktop-menu-item" href="./faq.html"><div class="desktop-orange"></div>FAQ</a></li>
+                <li><a class="desktop-menu-item" href="./estimate.html"a><div class="desktop-orange"></div>Estimate</a></li>
+                <li><a class="desktop-menu-item" href="./colours.html"><div class="desktop-orange"></div>Colours</a></li>
+                <li><a class="desktop-menu-item" href="./find-us.html"><div class="desktop-orange"></div>Find us</a></li>
+                <li><a class="desktop-menu-item" href="./contact.html"><div class="desktop-orange"></div>Contact us</a></li>
             </ul>
         </nav>
         <!-- Mobile Navigation -->
         <nav id="mobile-menu"></nav>
     </header>
+    <section class="text-section">
+        <div class="orange-animate">
+        </div>
+        <div class="text-container">
+            <h1>Kitchen Respray Colours</h1>
+            <p class="text-block">
+                Please note that the colours below are a representation of the colour and may appear differently off screen. If you are unsure whicg colour to go for, we can provide samples on site.
+            </p>
+        </div>
+    </section>
 
     <section id="grid-section">
-        <h1>Kitchen Respray Colours</h1>
-        <p class="text-block">
-            Please note that the colours below are a representation of the colour and may appear differently off screen. If you are unsure whicg colour to go for, we can provide samples on site.
-        </p>
+        <h2>Farrow & Ball Colours</h2>
         <!-- Animate in each colour grid item in sequence -->
         <div id="colour-grid"></div>
         <script type="text/javascript" src="./farrow-colours.js"></script>
@@ -68,25 +98,21 @@
                 <p class="footer-heading">Navigation</p>
                 <!-- navigation -->
                 <ul id="footer-navigation">
-                    <li class="desktop-menu-item">
-                        <div class="desktop-orange"></div>
-                        <a href="./faq.html">FAQ</a>
+                    <li>
+                        <a class="desktop-menu-item"href="./faq.html"><div class="desktop-orange"></div>FAQ</a>
                     </li>
-                    <li class="desktop-menu-item">
-                        <div class="desktop-orange"></div>
-                        <a href="./estimate.html">Estimate</a>
+                    <li>
+                        <a class="desktop-menu-item"href="./estimate.html"><div class="desktop-orange"></div>Estimate</a>
                     </li>
-                    <li class="desktop-menu-item">
-                        <div class="desktop-orange"></div>
-                        <a href="./colours.html">Colours</a>
+                    <li>
+                        
+                        <a class="desktop-menu-item" href="./colours.html"><div class="desktop-orange"></div>Colours</a>
                     </li>
-                    <li class="desktop-menu-item">
-                        <div class="desktop-orange"></div>
-                        <a target="_blank" href="https://www.google.com/maps/place/Ultimate+Finish+-+Kitchen+Respraying/@55.4045655,-1.6916035,17z/data=!3m1!4b1!4m5!3m4!1s0x487e016ed40ab3d5:0x8ba28cdaff5cb1cb!8m2!3d55.4045366!4d-1.6894137">Find Us</a>
+                    <li>
+                        <a class="desktop-menu-item" target="_blank" href="https://www.google.com/maps/place/Ultimate+Finish+-+Kitchen+Respraying/@55.4045655,-1.6916035,17z/data=!3m1!4b1!4m5!3m4!1s0x487e016ed40ab3d5:0x8ba28cdaff5cb1cb!8m2!3d55.4045366!4d-1.6894137"><div class="desktop-orange"></div>Find Us</a>
                     </li>
-                    <li class="desktop-menu-item">
-                        <div class="desktop-orange"></div>
-                        <a href="./contact.html">Contact us</a>
+                    <li>
+                        <a class="desktop-menu-item" href="./contact.html"><div class="desktop-orange"></div>Contact us</a>
                     </li>
                 </ul>
             </div>
@@ -99,5 +125,6 @@
         </div>
     </footer>
     <script src="./javascript/animate.js"></script>
+    <script src="./javascript/mobile-menu.js"></script>
 </body>
 </html>

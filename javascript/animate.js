@@ -67,6 +67,7 @@ var withinViewport = (function () {
 
     // Global class for revealing element
     var gridCircle = document.querySelectorAll(".grid-circle");
+    var orangeAnimate = document.querySelectorAll(".orange-animate");
 
     // Get the viewport (window) dimensions
     var getViewportSize = function () {
@@ -113,7 +114,7 @@ var withinViewport = (function () {
       var viewportSize = getViewportSize();
       var currentScroll = getCurrentScroll();
       var elemInfo = getElemInfo(elem);
-      var spaceOffset = 0.2;
+      var spaceOffset = 0.6;
       var elemHeight = elemInfo.height;
       var elemWidth = elemInfo.width;
       var elemTop = elemInfo.top;
@@ -146,6 +147,14 @@ var withinViewport = (function () {
       for (var i = 0; i < gridCircle.length; i++) {
         if (checkVisibility(gridCircle[i])) {
           gridCircle[i].classList.add("expanded");
+        } else {
+          //   gridCircle[i].classList.remove("expanded");
+        }
+      }
+
+      for (var i = 0; i < orangeAnimate.length; i++) {
+        if (checkVisibility(orangeAnimate[i])) {
+          orangeAnimate[i].classList.add("expand-orange");
         } else {
           //   gridCircle[i].classList.remove("expanded");
         }

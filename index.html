@@ -21,10 +21,32 @@
     <script src="./flickity/flickity.pkgd.min.js"></script>
 </head>
 <body>
-    <section>
+
         <!-- Animated logo -->
-    </section>
     <header>
+        <div class="mobilemenu">
+            <div class="mobile-menu-icon-container">
+                <i onclick="openMenu()" id="mobile-menu-icon" class="fa-solid fa-bars" style="color: white;"></i>
+                <ul id="mobile-navigation">
+                    <li>
+                        <a class="mobile-link" href="./faq.html">FAQ</a>
+                    </li>
+                    <li>
+                        <a class="mobile-link" href="./estimate.html">Estimate</a>
+                    </li>
+                    <li>
+                        
+                        <a class="mobile-link" href="./colours.html">Colours</a>
+                    </li>
+                    <li>
+                        <a class="mobile-link"  href="./find-us.html">Find us</a>
+                    </li>
+                    <li>
+                        <a class="mobile-link"  href="./contact.html">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>    
         <!-- Social Media -->
         <div id="social-top">
             <a class="icon" href="https://www.instagram.com/ultimatefinishalnwick" target="_blank">
@@ -36,17 +58,17 @@
         <!-- Desktop navigation -->
         <nav>
             <ul id="desktop-menu">
-                <li class="desktop-menu-item"><div class="desktop-orange"></div><a href="./faq.html">FAQ</a></li>
-                <li class="desktop-menu-item"><div class="desktop-orange"></div><a href="./estimate.html"a>Estimate</a></li>
-                <li class="desktop-menu-item"><div class="desktop-orange"></div><a href="./colours.html">Colours</a></li>
-                <li class="desktop-menu-item"><div class="desktop-orange"></div><a target="_blank">Find Us</a></li>
-                <li class="desktop-menu-item"><div class="desktop-orange"></div><a href="./contact.html">Contact us</a></li>
+                <li><a class="desktop-menu-item" href="./faq.html"><div class="desktop-orange"></div>FAQ</a></li>
+                <li><a class="desktop-menu-item" href="./estimate.html"a><div class="desktop-orange"></div>Estimate</a></li>
+                <li><a class="desktop-menu-item" href="./colours.html"><div class="desktop-orange"></div>Colours</a></li>
+                <li><a class="desktop-menu-item" href="./find-us.html"><div class="desktop-orange"></div>Find us</a></li>
+                <li><a class="desktop-menu-item" href="./contact.html"><div class="desktop-orange"></div>Contact us</a></li>
             </ul>
         </nav>
         <!-- Mobile Navigation -->
         <nav id="mobile-menu"></nav>
     </header>
-    <section>
+
         <!-- Slider - use flickety -->
         <!-- Get 10 images from the instagram account and palce them in the slider -->
         <div class="main-carousel">
@@ -62,43 +84,65 @@
             <div class="carousel-cell"><img class="slide-image" src="./kitchens/pink-1.jpg"></div>
             <div class="carousel-cell"><img class="slide-image" src="./kitchens/white-6.jpg"></div>
           </div>
-    </section>
     <section class="text-section">
-        <!-- Main heading -->
-        <h1>Ultimate Finish</h1>
-        <!-- Main text -->
-        <!-- Text is black, when sectioin comes into view, trigger expanding animation to fill background as orange -->
-        <p class="text-block">
-            This is the main text intro for the site, it should include key words from the title above.
-            This is the main text intro for the site, it should include key words from the title above.
-            This is the main text intro for the site, it should include key words from the title above.
-            This is the main text intro for the site, it should include key words from the title above.
-            This is the main text intro for the site, it should include key words from the title above.
+        <div class="orange-animate">
+        </div>
+        <div class="text-container">
+            <h1>Ultimate Finish</h1>
+            <p class="text-block">
+                Ultimate finish are kitchen respray specialists equipped with the latest gear to deliver fantastic kitchen conversions.
+                We produce outstanding results with top quality paint, offering a huge choice of colours in a variety of finishes.
+                This acts as a cost effection solution to upgrading your kitchen whilst minimizing home disruption.
+            </p>
+        </div>
+    </section>
 
-        </p>
-    </section>
-    <section class="text-section">
+    <section>
         <!-- Bullet Points -->
         <h2>Upgrade your kitchen</h2>
+        <div id="bullet-container">
+            <div class="bullet-row">
+                <i class="fa-solid fa-circle dot"></i>
+                <p class="bullet-text">Cost effective</p>
+            </div>
+            <div class="bullet-row">
+                <i class="fa-solid fa-circle dot"></i>
+                <p class="bullet-text">Can be completed off-site</p>
+            </div>
+            <div class="bullet-row">
+                <i class="fa-solid fa-circle dot"></i>
+                <p class="bullet-text">Long lasting</p></div>
+            <div class="bullet-row">
+                <i class="fa-solid fa-circle dot"></i>
+                <p class="bullet-text">Huge colour selection</p>
+            </div>
+            <div class="bullet-row">
+                <i class="fa-solid fa-circle dot"></i>
+                <p class="bullet-text">Variety of finishes</p>
+            </div>
+            <div class="bullet-row">
+                <i class="fa-solid fa-circle dot"></i>
+                <p class="bullet-text">Minimal disruption</p>
+            </div>
+            <div class="bullet-row">
+                <i class="fa-solid fa-circle dot"></i>
+                <p class="bullet-text">Professional service</p>
+            </div>
+        </div>
     </section>
+
     <section class="text-section">
-        <!-- Sub heading -->
-        <h2>Professional kitchen respray in Alnwick</h2>
-        <!-- Sub text -->
-        <p class="text-block">
-            This is the main text intro for the site, it should include key words from the title above.
-            This is the main text intro for the site, it should include key words from the title above.
-            This is the main text intro for the site, it should include key words from the title above.
-            This is the main text intro for the site, it should include key words from the title above.
-            This is the main text intro for the site, it should include key words from the title above.
-            This is the main text intro for the site, it should include key words from the title above.
-        </p>
-    </section>
-    <section class="text-section">
-        <!-- Sub heading -->
-        <h2>Check out our reviews</h2>
-        <!-- Sub text -->
-        <div></div>
+        <div class="orange-animate">
+        </div>
+        <div class="text-container">
+            <h2>Professional kitchen respray in Alnwick</h2>
+            <p class="text-block">
+                We are based in Alnwick, but offer services all over northumberland. 
+                Our friendly staff will collect your kitchen doors, take them to ours respray facility, and begin work.
+                We prepare the surfaces to produce a fantastic finish, then apply your chosen colour in several coats of Industrial quality paint.
+                finally once your doors are dried out iin our dust free vacuum room, we return the doors and install back into your kitchen. 
+            </p>
+        </div>
     </section>
 
     <!-- Add back to top button -->
@@ -122,25 +166,21 @@
                 <p class="footer-heading">Navigation</p>
                 <!-- navigation -->
                 <ul id="footer-navigation">
-                    <li class="desktop-menu-item">
-                        <div class="desktop-orange"></div>
-                        <a href="./faq.html">FAQ</a>
+                    <li>
+                        <a class="desktop-menu-item"href="./faq.html"><div class="desktop-orange"></div>FAQ</a>
                     </li>
-                    <li class="desktop-menu-item">
-                        <div class="desktop-orange"></div>
-                        <a href="./estimate.html">Estimate</a>
+                    <li>
+                        <a class="desktop-menu-item"href="./estimate.html"><div class="desktop-orange"></div>Estimate</a>
                     </li>
-                    <li class="desktop-menu-item">
-                        <div class="desktop-orange"></div>
-                        <a href="./colours.html">Colours</a>
+                    <li>
+                        
+                        <a class="desktop-menu-item" href="./colours.html"><div class="desktop-orange"></div>Colours</a>
                     </li>
-                    <li class="desktop-menu-item">
-                        <div class="desktop-orange"></div>
-                        <a target="_blank" href="https://www.google.com/maps/place/Ultimate+Finish+-+Kitchen+Respraying/@55.4045655,-1.6916035,17z/data=!3m1!4b1!4m5!3m4!1s0x487e016ed40ab3d5:0x8ba28cdaff5cb1cb!8m2!3d55.4045366!4d-1.6894137">Find Us</a>
+                    <li>
+                        <a class="desktop-menu-item" target="_blank" href="https://www.google.com/maps/place/Ultimate+Finish+-+Kitchen+Respraying/@55.4045655,-1.6916035,17z/data=!3m1!4b1!4m5!3m4!1s0x487e016ed40ab3d5:0x8ba28cdaff5cb1cb!8m2!3d55.4045366!4d-1.6894137"><div class="desktop-orange"></div>Find Us</a>
                     </li>
-                    <li class="desktop-menu-item">
-                        <div class="desktop-orange"></div>
-                        <a href="./contact.html">Contact us</a>
+                    <li>
+                        <a class="desktop-menu-item" href="./contact.html"><div class="desktop-orange"></div>Contact us</a>
                     </li>
                 </ul>
             </div>
@@ -152,6 +192,8 @@
             </div>
         </div>
     </footer>
+    <script src="./javascript/animate.js"></script>
     <script src="./javascript/slider.js"></script>
+    <script src="./javascript/mobile-menu.js"></script>
 </body>
 </html>

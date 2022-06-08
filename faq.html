@@ -17,6 +17,29 @@
     </head>
 <body>
     <header>
+        <div class="mobilemenu">
+            <div class="mobile-menu-icon-container">
+                <i onclick="openMenu()" id="mobile-menu-icon" class="fa-solid fa-bars" style="color: white;"></i>
+                <ul id="mobile-navigation">
+                    <li>
+                        <a class="mobile-link" href="./faq.html">FAQ</a>
+                    </li>
+                    <li>
+                        <a class="mobile-link" href="./estimate.html">Estimate</a>
+                    </li>
+                    <li>
+                        
+                        <a class="mobile-link" href="./colours.html">Colours</a>
+                    </li>
+                    <li>
+                        <a class="mobile-link"  href="./find-us.html">Find us</a>
+                    </li>
+                    <li>
+                        <a class="mobile-link"  href="./contact.html">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>  
         <!-- Social Media -->
         <div id="social-top">
             <a class="icon" href="https://www.instagram.com/ultimatefinishalnwick" target="_blank">
@@ -28,16 +51,99 @@
         <!-- Desktop navigation -->
         <nav>
             <ul id="desktop-menu">
-                <li class="desktop-menu-item"><div class="desktop-orange"></div><a href="./faq.html">FAQ</a></li>
-                <li class="desktop-menu-item"><div class="desktop-orange"></div><a href="./estimate.html"a>Estimate</a></li>
-                <li class="desktop-menu-item"><div class="desktop-orange"></div><a href="./colours.html">Colours</a></li>
-                <li class="desktop-menu-item"><div class="desktop-orange"></div><a target="_blank">Find Us</a></li>
-                <li class="desktop-menu-item"><div class="desktop-orange"></div><a href="./contact.html">Contact us</a></li>
+                <li><a class="desktop-menu-item" href="./faq.html"><div class="desktop-orange"></div>FAQ</a></li>
+                <li><a class="desktop-menu-item" href="./estimate.html"a><div class="desktop-orange"></div>Estimate</a></li>
+                <li><a class="desktop-menu-item" href="./colours.html"><div class="desktop-orange"></div>Colours</a></li>
+                <li><a class="desktop-menu-item" href="./find-us.html"><div class="desktop-orange"></div>Find us</a></li>
+                <li><a class="desktop-menu-item" href="./contact.html"><div class="desktop-orange"></div>Contact us</a></li>
             </ul>
         </nav>
         <!-- Mobile Navigation -->
         <nav id="mobile-menu"></nav>
     </header>
+    <section class="text-section">
+        <div class="orange-animate">
+        </div>
+        <div class="text-container">
+            <h1>Frequently asked questions</h1>
+            <p>You can find answers to the most common questions regarding our service.</p>
+        </div>
+    </section>
+    <section>
+        <div id="faq-container">
+            <div class="faq-row">
+                <div class="faq-icon-container">
+                    <img class="faq-icon" src="./images/icon.png">
+                </div>
+                <div class="faq-text-container">
+                    <h2>How Much does it cost to respray a kitchen?</h2>
+                    <p>
+                        In order for us to pass an accurate quote, we need to know your address to get an idea of travel costs to collect and deliver your kitchen doors. 
+                        We also need to measure all the panels to get an accurate assessment of how much paint we need. The type of paint also effects the price.
+                        Once we have this information we can give you a quotation.
+                    </p>
+                </div>
+            </div>
+            <div class="faq-row">
+                <div class="faq-icon-container">
+                    <img class="faq-icon" src="./images/icon.png">
+                </div>
+                <div class="faq-text-container">
+                    <h2>How long does it take to spray a kitchen?</h2>
+                    <p>
+                        There is minimal interuption to your home, we collect your kitchen panels and take them away to get resprayed. 
+                        This usually takes 2 - 3 days from the point of collecting to refitting.
+                    </p>
+                </div>
+            </div>
+            <div class="faq-row">
+                <div class="faq-icon-container">
+                    <img class="faq-icon" src="./images/icon.png">
+                </div>
+                <div class="faq-text-container">
+                    <h2>What colours are available?</h2>
+                    <p>
+                        There's approximately 150 colours to choose from in the Farrow & Ball range, you can view those colours on the <span><a class="text-link" href="./colours.html">colour</a></span> page of this website.
+                    </p>
+                </div>
+            </div>
+            <div class="faq-row">
+                <div class="faq-icon-container">
+                    <img class="faq-icon" src="./images/icon.png">
+                </div>
+                <div class="faq-text-container">
+                    <h2>Will the paint scratch off?</h2>
+                    <p>
+                        The type of paint we use, and the preparation that goes into your panels gives the surface incredible protection, the paint is protected by a solid layer of hardened polyurthane. 
+                        It would take a serious accident with a sharp heavy object to cause an damage to the surface. Should an accident occur, just get back intouch and we can repair and restore the surface.
+                    </p>
+                </div>
+            </div>
+            <div class="faq-row">
+                <div class="faq-icon-container">
+                    <img class="faq-icon" src="./images/icon.png">
+                </div>
+                <div class="faq-text-container">
+                    <h2>What payment methods do you accept?</h2>
+                    <p>
+                        Bank transfer or cash. An itemised invoice will be sent to you with our bank details on once the work has been complete.
+                    </p>
+                </div>
+            </div>
+            <div class="faq-row">
+                <div class="faq-icon-container">
+                    <img class="faq-icon" src="./images/icon.png">
+                </div>
+                <div class="faq-text-container">
+                    <h2>I don't want shiney paint, is that okay?</h2>
+                    <p>
+                        There are various levels of sheen regardless of the colour you choose. 
+                        It's possible to get a matt finish which is equivilent to 10% sheen, certainly the more popular choice, it doesn't have to be a glossy finish.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
     <footer>
         <div id="footer-container">
             <div id="footer-logo" class="footer-item">
@@ -57,25 +163,21 @@
                 <p class="footer-heading">Navigation</p>
                 <!-- navigation -->
                 <ul id="footer-navigation">
-                    <li class="desktop-menu-item">
-                        <div class="desktop-orange"></div>
-                        <a href="./faq.html">FAQ</a>
+                    <li>
+                        <a class="desktop-menu-item"href="./faq.html"><div class="desktop-orange"></div>FAQ</a>
                     </li>
-                    <li class="desktop-menu-item">
-                        <div class="desktop-orange"></div>
-                        <a href="./estimate.html">Estimate</a>
+                    <li>
+                        <a class="desktop-menu-item"href="./estimate.html"><div class="desktop-orange"></div>Estimate</a>
                     </li>
-                    <li class="desktop-menu-item">
-                        <div class="desktop-orange"></div>
-                        <a href="./colours.html">Colours</a>
+                    <li>
+                        
+                        <a class="desktop-menu-item" href="./colours.html"><div class="desktop-orange"></div>Colours</a>
                     </li>
-                    <li class="desktop-menu-item">
-                        <div class="desktop-orange"></div>
-                        <a target="_blank" href="https://www.google.com/maps/place/Ultimate+Finish+-+Kitchen+Respraying/@55.4045655,-1.6916035,17z/data=!3m1!4b1!4m5!3m4!1s0x487e016ed40ab3d5:0x8ba28cdaff5cb1cb!8m2!3d55.4045366!4d-1.6894137">Find Us</a>
+                    <li>
+                        <a class="desktop-menu-item" target="_blank" href="https://www.google.com/maps/place/Ultimate+Finish+-+Kitchen+Respraying/@55.4045655,-1.6916035,17z/data=!3m1!4b1!4m5!3m4!1s0x487e016ed40ab3d5:0x8ba28cdaff5cb1cb!8m2!3d55.4045366!4d-1.6894137"><div class="desktop-orange"></div>Find Us</a>
                     </li>
-                    <li class="desktop-menu-item">
-                        <div class="desktop-orange"></div>
-                        <a href="./contact.html">Contact us</a>
+                    <li>
+                        <a class="desktop-menu-item" href="./contact.html"><div class="desktop-orange"></div>Contact us</a>
                     </li>
                 </ul>
             </div>
@@ -87,5 +189,7 @@
             </div>
         </div>
     </footer>
+    <script src="./javascript/animate.js"></script>
+    <script src="./javascript/mobile-menu.js"></script>
 </body>
 </html>
