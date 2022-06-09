@@ -1,7 +1,7 @@
 var withinViewport = (function () {
   "use strict";
   // Cutting the mustard
-  // http://webfieldmanual.com/guides/cutting-the-mustard.html
+  // http://webfieldmanual.com/guides/cutting-the-mustard
 
   if (window.requestAnimationFrame && document.documentElement.classList) {
     // Passes the test so add enhanced class to HTML tag
