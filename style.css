@@ -470,15 +470,20 @@ a {
         position: fixed;
         bottom: 30px;
         right: 30px;
-        font-size:3rem;
-        color:#ff7200;
+        border: none;
+        background: none;
+    }
+
+    #top-icon {
+        font-size: 3rem;
+        color: #ff7200;
         background-color: black;
         border-radius: 50%;
         border: 1px solid black;
         transition: 250ms;
     }
 
-    #top:hover {
+    #top-icon:hover {
         color: white;
     }
  }

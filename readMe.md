@@ -8,7 +8,7 @@
 - Gaming ( RTS, FPS & ARPG's)
 
 📫 How to reach me
-https://www.linkedin.com/in/jason-smith-code/
+https://www.linkedin.com/in/jason-smith-code/ <br>
 👓 My portfolio site
 https://www.jason-smith.tech
 
