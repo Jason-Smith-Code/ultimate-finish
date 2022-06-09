@@ -72,36 +72,36 @@ Desktop Score: 98
 
 ## Desktop screen Shots
 
-Index page desktop
+Index page desktop<br>
 ![Index](./images/screens/index.jpg)
 
-Colours page desktop
+Colours page desktop<br>
 ![Colours](./images/screens/colours.jpg)
 
-Contact page desktop
+Contact page desktop<br>
 ![Contact](./images/screens/contact.jpg)
 
-FAQ page desktop
+FAQ page desktop<br>
 ![Faq](./images/screens/faq.jpg)
 
-Find us page desktop
+Find us page desktop<br>
 ![Find-us](./images/screens/find-us.jpg)
 
 ## Mobile screen Shots
 
-Index page desktop
+Index page desktop<br>
 ![Index](./images/screens/index-mobile.jpg)
 
-Colours page desktop
+Colours page desktop<br>
 ![Colours](./images/screens/colours-mobile.jpg)
 
-Contact page desktop
+Contact page desktop<br>
 ![Contact](./images/screens/contact-mobile.jpg)
 
-FAQ page desktop
+FAQ page desktop<br>
 ![Faq](./images/screens/faq-mobile.jpg)
 
-Find us page desktop
+Find us page desktop<br>
 ![Find-us](./images/screens/find-us-mobile.jpg)
 
 ## Viewing the website
