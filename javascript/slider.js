@@ -6,5 +6,7 @@ $(document).ready(function () {
     draggable: true,
     pageDots: false,
     setGallerySize: false,
+    imagesLoaded: true,
+    lazyLoad: true,
   });
 });
