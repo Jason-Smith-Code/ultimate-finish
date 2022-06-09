@@ -1,4 +1,4 @@
-# utlimate-finish : Website
+# Ultimate Finish : Website
 
 👋 Hi, I’m @Jason-Smith-Code
 
@@ -39,7 +39,7 @@ The owner of the business absolutely loved the final result.
 
 - **✅ Rebuild Logo** <br>
   The only logo I could find online was a tiny pixellated poor image, so I used this as reference and re-built the logo in photoshop.
-  [Mobile-Index-Before](./images/screens/logo-photoshop.jpg)
+  ![Mobile-Index-Before](./images/screens/logo-photoshop.jpg)
 
 - **✅ Publish on github Pagegs** <br>
   This allowed me to assess the site through speed testing facilities
@@ -48,7 +48,7 @@ The owner of the business absolutely loved the final result.
 
 ## Before page speed optimisaton
 
-[Mobile-Index-Before](./images/screens/google-insight-index-mobile-before.jpg)
+![Mobile-Index-Before](./images/screens/google-insight-index-mobile-before.jpg)
 
 Page - index: Mobile Score: 67 Desktop Score: 98
 Page - colours: Mobile Score: 99 Desktop Score: 98
@@ -61,20 +61,20 @@ Page - find-us: Mobile Score: 89 Desktop Score: 98
 ## Website screen Shots
 
 Index page desktop
-[Index](./images/screens/index.jpg)
+![Index](./images/screens/index.jpg)
 
 Colours page desktop
-[Colours](./images/screens/colours.jpg)
+![Colours](./images/screens/colours.jpg)
 
 Contact page desktop
-[Contact](./images/screens/contact.jpg)
+![Contact](./images/screens/contact.jpg)
 
 FAQ page desktop
-[Faq](./images/screens/faq.jpg)
+![Faq](./images/screens/faq.jpg)
 
 Find us page desktop
-[Find-us](./images/screens/find-us.jpg)
+![Find-us](./images/screens/find-us.jpg)
 
 ## Viewing the website
 
-Visit : https://jason-smith-code.github.io/utlimate-finish/index
+Visit : https://jason-smith-code.github.io/ultimate-finish/index
