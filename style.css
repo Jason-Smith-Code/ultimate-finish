@@ -241,6 +241,7 @@ a {
     header {
         text-align: center;
         margin-bottom: 25px;
+        border-bottom: 1px solid white;
     }
 
     #desktop-menu {
@@ -368,6 +369,7 @@ a {
         gap: 25px;
         margin: auto;
         max-width: 100%;
+        padding: 0 20px;
         grid-template-columns: repeat(auto-fill, 100px);
     }
 
@@ -469,7 +471,7 @@ a {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        margin-top: 25px;
+        margin: 25px 0;
         text-transform: uppercase;
     }
     
