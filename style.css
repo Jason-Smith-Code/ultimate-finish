@@ -116,10 +116,6 @@ a {
         height: 35px;
     }
 
-    .icon:hover {
-        color: var(--orange)
-    }
-
     /* Header */
     header {
         text-align: center;

@@ -52,23 +52,41 @@ The owner of the business absolutely loved the final result.
 
 ![Mobile-Index-Before](./images/screens/google-insight-index-mobile-before.jpg)
 
-Page - index: <br>
+Index: <br>
 Mobile Score: 67 <br>
 Desktop Score: 98<br><br>
-Page - colours: <br>
+Colours: <br>
 Mobile Score: 99 <br>
 Desktop Score: 98<br><br>
-Page - contact: <br>
+Contact: <br>
 Mobile Score: 81 <br>
 Desktop Score: 99<br><br>
-Page - faq: <br>
+FAQ: <br>
 Mobile Score: 84 <br>
 Desktop Score: 99<br><br>
-Page - find-us: <br>
+Find-us: <br>
 Mobile Score: 89 <br>
 Desktop Score: 98
 
 ## After page speed optimisaton
+
+![Mobile-Index-Before](./images/screens/google-insight-index-mobile-after.jpg)
+
+Page - index: <br>
+Mobile Score: 99 <br>
+Desktop Score: 100<br><br>
+Colours: <br>
+Mobile Score: 99 <br>
+Desktop Score: 99<br><br>
+Contact: <br>
+Mobile Score: 99 <br>
+Desktop Score: 99<br><br>
+FAQ: <br>
+Mobile Score: 99 <br>
+Desktop Score: 99<br><br>
+Find-us: <br>
+Mobile Score: 99 <br>
+Desktop Score: 99
 
 ## Desktop screen Shots
 
