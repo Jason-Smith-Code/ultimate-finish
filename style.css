@@ -8,6 +8,9 @@
 :root {
     --orange: #ff7200;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     background-color: black;
@@ -72,7 +75,14 @@ ul {
 }
 
 /* Font */
-h1, h2, h3, h4, h5, h6 {
+h1 {
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 3rem;
+    margin-bottom:50px;
+}
+
+h2, h3, h4, h5, h6 {
     font-weight: 100;
     text-transform: uppercase;
     font-size: 2rem;
@@ -91,7 +101,60 @@ a {
 }
 
 @media only screen and (min-width: 0px) {
+
+    /* Social top */
+    #social-top {
+        width: 100%;
+        text-align: end;
+    }
+
+    .icon {
+        color: white;
+        font-size: 2rem;
+        text-decoration: none;
+        transition: 250ms;
+        margin:10px;
+    }
+
+    .icon:hover {
+        color: var(--orange)
+    }
+
+    /* Header */
+    header {
+        text-align: center;
+        margin-bottom: 25px;
+        border-bottom: 1px solid white;
+        padding-bottom: 20px;
+    }
+
+    #desktop-menu {
+        display: none;
+    }
     
+    /* Find us page */
+
+    #find-us-container {
+        margin: 0 20px;
+    }
+    
+    #find-us-text-container {
+        margin-bottom: 100px;
+    }
+
+    #find-us-unit {
+        max-width: 800px;
+    }
+
+    #find-us-google-maps-icon {
+        color:#ff7200;
+    }
+    
+    #find-us-google-maps-icon, #find-us-google-maps-text {
+       font-size: 2rem; 
+    }
+
+    /* Mobile menu */
     .mobilemenu {
         position: fixed;
         top: 0;
@@ -185,6 +248,7 @@ a {
         justify-content: center;
         align-items: center;
     }
+
     .expand-orange {
         z-index: -1;
         -webkit-animation-fill-mode: forwards; /* Chrome 16+, Safari 4+ */
@@ -202,7 +266,10 @@ a {
         margin: auto;
         max-width: 1200px;
     }
+
     .faq-row {
+        transition: 2s;
+        opacity: 0;
         display: flex;
         flex-direction: column;
         margin-bottom: 100px;
@@ -219,35 +286,7 @@ a {
         margin: 0 20px;
     }
 
-    /* Social top */
-
-    #social-top {
-        width: 100%;
-        text-align: end;
-    }
-
-    .icon {
-        color: white;
-        font-size: 2rem;
-        text-decoration: none;
-        transition: 250ms;
-        margin:10px;
-    }
-
-    .icon:hover {
-        color: var(--orange)
-    }
-
-    header {
-        text-align: center;
-        margin-bottom: 25px;
-        border-bottom: 1px solid white;
-    }
-
-    #desktop-menu {
-        display: none;
-    }
-
+    /* Footer */
     footer {
         padding: 98px 0;
         width: 100%;
@@ -275,8 +314,8 @@ a {
         margin-bottom: 50px;
         color: var(--orange)
     }
-    /* Contact form */
 
+    /* Contact form */
     #contact-form {
         display: flex;
         flex-direction: column;
@@ -287,6 +326,7 @@ a {
         border: 20px solid white;
         border-radius: 20px;
     }
+
     input, label {
         margin-bottom: 10px;
     }
@@ -407,6 +447,8 @@ a {
     }
 
     .bullet-row {
+        opacity: 0;
+        transition: 2s;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -418,8 +460,25 @@ a {
         font-size: 1.5rem;
         margin-right: 25px;
     }
+
     .bullet-text {
         font-size: 1.5rem;
+    }
+
+    #top {
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        font-size:3rem;
+        color:#ff7200;
+        background-color: black;
+        border-radius: 50%;
+        border: 1px solid black;
+        transition: 250ms;
+    }
+
+    #top:hover {
+        color: white;
     }
  }
 
@@ -430,16 +489,11 @@ a {
 }
 
 @media only screen and (min-width: 768px) {
-    #footer-container {
-        flex-direction: row;
-    }
-
-    .footer-item {
-        width:50%;
-    }
 
     /* FAQ */
     .faq-row {
+        transition: 2s;
+        opacity: 0;
         display: flex;
         flex-direction: row;
         margin-bottom: 100px;
@@ -456,6 +510,16 @@ a {
         align-items: center;
         justify-content: center;
     }
+
+    /* Footer */
+
+    #footer-container {
+        flex-direction: row;
+    }
+
+    .footer-item {
+        width:50%;
+    }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -471,7 +535,7 @@ a {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        margin: 25px 0;
+        margin-top: 25px;
         text-transform: uppercase;
     }
     

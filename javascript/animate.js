@@ -68,6 +68,8 @@ var withinViewport = (function () {
     // Global class for revealing element
     var gridCircle = document.querySelectorAll(".grid-circle");
     var orangeAnimate = document.querySelectorAll(".orange-animate");
+    var faqRow = document.querySelectorAll(".faq-row");
+    var bulletRow = document.querySelectorAll(".bullet-row");
 
     // Get the viewport (window) dimensions
     var getViewportSize = function () {
@@ -155,6 +157,22 @@ var withinViewport = (function () {
       for (var i = 0; i < orangeAnimate.length; i++) {
         if (checkVisibility(orangeAnimate[i])) {
           orangeAnimate[i].classList.add("expand-orange");
+        } else {
+          //   gridCircle[i].classList.remove("expanded");
+        }
+      }
+
+      for (var i = 0; i < faqRow.length; i++) {
+        if (checkVisibility(faqRow[i])) {
+          faqRow[i].style.opacity = "1";
+        } else {
+          //   gridCircle[i].classList.remove("expanded");
+        }
+      }
+
+      for (var i = 0; i < bulletRow.length; i++) {
+        if (checkVisibility(bulletRow[i])) {
+          bulletRow[i].style.opacity = "1";
         } else {
           //   gridCircle[i].classList.remove("expanded");
         }
