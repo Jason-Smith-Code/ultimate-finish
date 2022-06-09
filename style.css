@@ -524,6 +524,11 @@ a {
 }
 
 @media only screen and (min-width: 1024px) {
+
+    .mobilemenu {
+        display:none;
+    }
+
     .main-carousel {
         height: 700px;
     }
