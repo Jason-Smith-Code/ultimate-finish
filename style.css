@@ -105,15 +105,15 @@ a {
     /* Social top */
     #social-top {
         width: 100%;
-        text-align: end;
+        display: flex;
+        justify-content: right;
     }
 
     .icon {
-        color: white;
-        font-size: 2rem;
-        text-decoration: none;
-        transition: 250ms;
-        margin:10px;
+        margin: 10px;
+        display: block;
+        width: 30px;
+        height: 35px;
     }
 
     .icon:hover {
