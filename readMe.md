@@ -9,6 +9,8 @@
 
 📫 How to reach me
 https://www.linkedin.com/in/jason-smith-code/
+👓 My portfolio site
+https://www.jason-smith.tech
 
 ## Business Description
 
@@ -50,11 +52,21 @@ The owner of the business absolutely loved the final result.
 
 ![Mobile-Index-Before](./images/screens/google-insight-index-mobile-before.jpg)
 
-Page - index: Mobile Score: 67 Desktop Score: 98
-Page - colours: Mobile Score: 99 Desktop Score: 98
-Page - contact: Mobile Score: 81 Desktop Score: 99
-Page - faq: Mobile Score: 84 Desktop Score: 99
-Page - find-us: Mobile Score: 89 Desktop Score: 98
+Page - index: <br>
+Mobile Score: 67 <br>
+Desktop Score: 98<br><br>
+Page - colours: <br>
+Mobile Score: 99 <br>
+Desktop Score: 98<br><br>
+Page - contact: <br>
+Mobile Score: 81 <br>
+Desktop Score: 99<br><br>
+Page - faq: <br>
+Mobile Score: 84 <br>
+Desktop Score: 99<br><br>
+Page - find-us: <br>
+Mobile Score: 89 <br>
+Desktop Score: 98
 
 ## After page speed optimisaton
 
