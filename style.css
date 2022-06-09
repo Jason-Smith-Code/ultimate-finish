@@ -317,11 +317,20 @@ a {
     }
 
     /* Contact form */
+    #contact-form-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0 20px;
+    }
+
     #contact-form {
         display: flex;
         flex-direction: column;
+        width: 100%;
         max-width: 500px;
-        margin:auto;
+        margin: 0 20px;
         padding: 20px;
         text-align: left;
         border: 20px solid white;
